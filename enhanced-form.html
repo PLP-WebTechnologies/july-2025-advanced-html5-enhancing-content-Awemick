@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1" >
+    <title>Tables and Forms</title>
+
+</head>
+
+<body>
+
+    <main>
+         <div>       
+           <h1>Enhanced HTML and Forms</h1>
+           <p>I will be guiding you through enhanced HTML and forms, covering both the front-end and back-end aspects.</p>
+         </div>
+
+         <section>
+           <h2>Front End</h2>
+            <ul>
+               <li>Html5</li>
+               <li>CSS3</li>
+               <li>JavaScript</li>
+            </ul>
+         </section>
+           
+         <section>
+          <h2>Backend</h2>
+          <ol>
+            <li>Node.js</li>
+            <li>Python(flask)</li>
+            <li>PHP</li>
+          </ol>
+         </section>
+         
+         <section>
+            <h2>Course Outline</h2>
+            <table border="1" style="width:100%; border-collapse: collapse;">
+                <thead>
+                <tr>
+                    <th >Course Outline</th>
+                <!--<th></th>-->
+                </tr>
+
+                </thead>
+                <tbody>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Html</td>
+                    <td>Hyper text markup language</td>
+                </tr>
+                <tr>
+                    <td>CSS3</td>
+                    <td>Styling and enhancing</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>page enhancing and </td>
+                </tr>
+                <tr>
+                    <td>Node.js</td>
+                    <td>UI/UX</td>
+                </tr>
+                <tr>
+                    <td>PHP</td>
+                    <td>page completion</td>
+                </tr>
+                </tbody>
+            </table>
+         </section>
+
+         <section>
+            <h2>Learning Schedule</h2>
+             <table border="1">
+                <thead>
+                <tr>
+                    <th>Day</th>
+                    <th>Topics</th>
+                    <th>Hours</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Monday</td>
+                    <td>Html&css</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td>JavaScript basics</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>Friday</td>
+                    <td>Practicals and project presentation</td>
+                    <td>3</td>
+                </tr>
+                </tbody>
+             </table>
+         </section>
+
+         <div>
+            <h2>Media Showcase</h2>
+            <img src="media\image.jpg" width="400" alt="web development image">
+            <audio controls autoplay muted ><source src="media\audio.mp3.mp3" type="audio/mpeg"></audio>
+            <video height="700" width="400" controls><source src="media\video.mp4" type="Video/mp4">Your browser does not support the video tag</video>
+         </div>
+         <section>
+            <h2>Registration Forms</h2>
+            <form action="submitdatabase" method="post" autocomplete="on">
+                <fieldset>
+                    <legend>Personal information</legend>
+                        <label for="fullname">Full Name:</label>
+                        <input type="text" id="fullname" name="fullname" placeholder="Jane juma" required>
+
+                         <label for="email">Email Address:</label>
+                         <input type="email" id="email" name="email" placeholder="example@email.com" required>
+
+                         <label for="phone">Phone Number:</label>
+                           <input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="\d{3}-\d{3}-\d{4}" required>
+
+                          <label for="dob">Date of Birth:</label>
+                         <input type="date" id="dob" name="dob" required  >
+                </fieldset>
+                <fieldset>
+                    <legend>Account Information</legend>
+                         <label for="username">Username:</label>
+                         <input type="text" id="username" name="username" minlength="4" placeholder="Enter a username" required>
+
+                         <label for="password">Password:</label>
+                         <input type="password" id="password" name="password" minlength="6" placeholder="Minimum 6 characters" required>
+ 
+                         <label for="gender">Gender:</lel>
+                         <select id="gender" name="gender" required>
+                           <option value="">--Select--</option>ab
+                           <option value="female">Female</option>
+                           <option value="male">Male</option>
+                           <option value="other">Other</option>
+                           <option value="prefer_not">Prefer not to say</option>
+                         </select>
+
+                         <label for="Admission">Admission year:</lel>
+                         <select id="year" name="Year" required readonly>
+                           <option value="">--2025/2026--</option>
+                           <option value="year">2025/2026</option>
+                          
+                         </select>
+
+
+                         <label for="bio">Short Bio:</label> 
+                          <textarea id="bio" name="bio" rows="4" placeholder="Tell us about yourself..."></textarea>
+                          
+                </fieldset>
+                        <input type="submit" value="Submit">
+            </form>
+         </section>
+         
+    </main>
+
+    <footer>
+           <p>&copy; 2025 HTML5 Learning Project</p>
+    </footer>
+
+</body>
+
+</html>
